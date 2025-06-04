@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #ffdde1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #4c2a2a;
+  }
+  
+  /* Menu de navegação */
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4c2a2a;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  /* Conteúdo principal */
+  /* main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  } */
+  
+  /* Seções */
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    color: #d26c6c;
+    margin-bottom: 10px;
+  }
+
+  #inicio{
+    /* margin: 5rem; */
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .perfil {
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+  }
+
+  .foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 4px solid #d26c6c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+  }
