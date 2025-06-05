@@ -72,6 +72,14 @@
     gap: 25px;
   }
 
+  .sobreht{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
   .perfil {
     display: flex;
     /* align-items: flex-start; */

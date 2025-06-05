@@ -1,31 +1,36 @@
+<?php
+// index.php
+$titulo = "art-alex";
+$ano = date("Y");
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?= $titulo ?></title>
     <link rel="stylesheet" href="idex.css">
 </head>
 <body>
     <header>
-        <h1>art-alex</h1>
+        <h1><?= $titulo ?></h1>
         <nav>
           <ul>
-            <li><a href="/idex.html">Início</a></li>
-            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="index.php">Início</a></li>
+            <li><a href="sobre.php">Sobre</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-      </header>
+    </header>
 
-      <section id="projetos">
+    <section id="projetos">
         <h2>Projetos</h2>
         <p>Projetos novos, ideias em andamento e colaborações criativas.</p>
-      </section>
+    </section>
 
-      <footer>
-        <p>&copy; 2025 art-alex. Todos os direitos reservados.</p>
-      </footer>
+    <footer>
+        <p>&copy; <?= $ano ?> <?= $titulo ?>. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

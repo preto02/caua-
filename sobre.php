@@ -1,3 +1,6 @@
+<?php
+// Você pode adicionar lógica PHP aqui, se necessário.
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +14,7 @@
         <h1>art-alex</h1>
         <nav>
           <ul>
-            <li><a href="/idex.html">Início</a></li>
+            <li><a href="idex.php">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
@@ -21,14 +24,15 @@
       <main>
         <section id="sobre" class="sobreht">
             <div>
+            <div class="perfil">
+                <img class="foto-perfil" src="imagens/fotodeperfil.jpeg" alt="foto de perfil">
+            </div>
                 <h2>Sobre</h2>
                 <p>Alex é uma artista que adora criar mundos através do desenho. Aqui você conhece mais sobre seu trabalho.</p>
              </div>
-            <div class="perfil">
-                <img class="foto-perfil" src="/imagens/fotodeperfil.jpeg" alt="foto de perfil">
-            </div>
+            
         </section>
-      </main>S
+      </main>
       <footer>
         <p>&copy; 2025 art-alex. Todos os direitos reservados.</p>
       </footer>
