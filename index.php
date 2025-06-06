@@ -16,10 +16,10 @@
         <h1>art-alex</h1>
         <nav>
             <ul>
-                <li><a href="index.php">Início</a></li>
-                <li><a href="sobre.php">Sobre</a></li>
-                <li><a href="projetos.php">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="home">Início</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="projetos">Projetos</a></li>
+                <li><a href="contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -35,7 +35,6 @@
                 } else {
                     include "pages/erro.php";
                 }
-
         ?>
     </main>
 
