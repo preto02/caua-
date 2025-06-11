@@ -9,20 +9,30 @@
   body {
     font-family: Arial, sans-serif;
     background-color: #faf8f7;
-    color: #f3a5a5;
+    color: #000000;
     line-height: 1.6;
   }
   main{
-    background-image: url(imagens/foto\ de\ fundo.jpeg);
+    background-image: url(imagens/fundo02.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* Cabeçalho */
   header {
-    background-color: #ffdde1;
+    background-size: cover;
+    background-image: url(imagens/fundo02.jpeg);
+    background-position: center;
     padding: 20px;
     text-align: center;
   }
   
+  .navbar-brand{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
   header h1 {
     font-size: 2em;
     color: #4c2a2a;
@@ -102,8 +112,8 @@
   
   /* Rodapé */
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f09e9e;
+    color: #000000;
     padding: 20px;
     text-align: center;
     font-size: 0.9em;
@@ -112,6 +122,30 @@
   .imagens{
     img{
       height :350px;
-      margin: 0 15px;
+      margin: 5px;
     }
   }
+
+    .imagensprojetos{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .carouselimagens{
+      width: 80vw;
+    }
+
+    .carousel-inner{
+      display: flex;
+      width: 100% !important;
+      /* align-items: center !important; */
+      height: 500px;
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: 500px;
+      object-fit: contain;
+    }

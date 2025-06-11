@@ -9,10 +9,10 @@
             </div>
         </div>
         </section>
-        <div class="imagens">
+        <div>
             <h2>Imagens dos nossos produtos</h2>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+                <div class="imagens">
                 <img src="imagens/carol.jpeg" alt="img 1">
                 <img src="imagens/projetodupe.jpeg" alt="img 2">
                 <img src="imagens/projetoproprio.jpeg" alt="img 3">
