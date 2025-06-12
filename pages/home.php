@@ -4,13 +4,14 @@
                 <img class="foto-perfil" src="imagens/fotodeperfil.jpeg" alt="foto de perfil">
             </div>
             <div class="textos">
-                <h2>Bem-vindo à art-alex</h2>
-                <p>Olá pessoal! Meu nome é allex  sou ilustradora digital e estou atuando na  área a dois anos, sou versátil para trabalhos, mas meu foco são desingn de personagens,criaturas e roupas </p>
+                <h2>Bem-vindo à art-allex</h2>
+                <p>Olá pessoal! Meu nome é allex  sou ilustradora digital e estou atuando na  área a dois anos, sou versátil para trabalhos, mas meu foco são desingn de personagens,criaturas e roupas.</p>
             </div>
+            <a class="contatobtn" href="contato">contato</a>
         </div>
         </section>
         <div>
-            <h2>Imagens dos nossos produtos</h2>
+            <h2>Imagens das minhas comission </h2>
             <div>
                 <div class="imagens">
                 <img src="imagens/carol.jpeg" alt="img 1">
