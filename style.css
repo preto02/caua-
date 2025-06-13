@@ -154,10 +154,12 @@
       padding: 0.5rem 0;
       text-decoration: none;
       border: 0;
-      background-color: rgb(231, 159, 213) !important;
+      background-color: #d45582 !important;
       border-radius: 20%;
       transition: ease-in-out 0.3s;
       padding: 10px;
+      width: fit-content;
+      justify-self: center;
     }
 
     .nav-contato:hover{
@@ -169,14 +171,23 @@
       padding: 0.5rem 0;
       text-decoration: none;
       border: 0;
-      background-color: rgb(231, 159, 213) !important;
-      color: aliceblue;
+      background-color: #d45582 !important;
+      color: rgb(0, 0, 0);
       border-radius: 20%;
       transition: ease-in-out 0.3s;
-      padding: 10px;
+      padding: 15px;
+      width: fit-content ;
+      font-weight: bold;
+      display: block;
     }
 
     .contatobtn:hover{
-      background-color:(231, 159, 213) ;
+      background-color:#d45582;
       transform: scale(1.1);
     }
+    .textos{
+      padding: 15px;
+    }
+      .comission{
+        padding: 15px;
+      }
