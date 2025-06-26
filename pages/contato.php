@@ -11,7 +11,7 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      background-color: #f9f9f9;
+      background-color:rgb(255, 255, 255);
     }
     .form-container label, .form-container input, .form-container textarea {
       display: block;
@@ -78,7 +78,7 @@
     }
 
     // Redirecionamento para o WhatsApp
-    let whatsappURL = `https://wa.me/SEUNUMERODOWHATSAPP/?text=${encodeURIComponent(message)}`;
+    let whatsappURL = `https://wa.me/554497382104/?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappURL;
   }
 </script>

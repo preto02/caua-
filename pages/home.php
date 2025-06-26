@@ -7,7 +7,7 @@
                 <h2>Bem-vindo à art-allex</h2>
                 <p class=" textoparagrafo">Olá pessoal! Meu nome é allex  sou ilustradora digital e estou atuando na  área a dois anos, sou versátil para trabalhos, mas meu foco são desingn de personagens,criaturas e roupas.</p>
             </div>
-            <a class="contatobtn" href="contato">contato</a>
+            <a class="contatobtn" href="contato">comission</a>
         </div>
         </section>
         <div>

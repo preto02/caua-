@@ -6,13 +6,13 @@
             </div>
             <h2>Projetos</h2>
             <p>inspiração transformada em criação veja meus projetos artisticos !.</p>
-            <a class="contatobtn" href="contato">contato</a>
+            <a class="contatobtn" href="contato">comission</a>
         </div>
 
         </section>
         <div class="imagensprojetos">
             <h2>Imagens dos meus projetos</h2>
-            <div id="carouselExample" class="carouselimagens carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div id="carouselExample" class="carouselimagens carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="imagens/carol.jpeg" alt="img 1">

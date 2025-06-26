@@ -12,11 +12,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
-
+    
     <header>
         <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <img src="imagens/fotodeperfil-photoroom.png" class="navbar-brand">
+            <img src="imagens/fotodeperfilheader.png" class="navbar-brand">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,7 +32,7 @@
                 <a class="nav-link" href="projetos">projetos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-contato" href="contato">contato</a>
+                <a class="nav-contato" href="contato">comission</a>
                 </li>
             </ul>
             </div>
